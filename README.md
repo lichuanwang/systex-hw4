@@ -34,7 +34,7 @@ mvn clean package
 ### 2. Deploy the WAR File to Tomcat
 
 ```bash
-cp target/homeWork3-0.0.1-SNAPSHOT.war /path/to/tomcat/webapps/
+cp target/hw4-0.0.1-SNAPSHOT.war /path/to/tomcat/webapps/
 ```
 
 ### 3. Satrt Tomcat
@@ -54,7 +54,7 @@ C:\path\to\tomcat\bin\startup.bat
 ### 4. Access the Application
 
 ```
-http://localhost:8080/homeWork3-0.0.1-SNAPSHOT/
+http://localhost:8080/
 ```
 
 ## How to Play the Game
