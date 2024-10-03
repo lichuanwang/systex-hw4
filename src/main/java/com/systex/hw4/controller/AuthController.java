@@ -18,6 +18,9 @@ public class AuthController {
     @Autowired
     private UserService userService;
 
+    @Autowired
+    private User user;
+
     @GetMapping("/login")
     public String showLoginPage(Model model) {
         return "auth/login";

@@ -2,6 +2,7 @@ package com.systex.hw4.model;
 
 
 import jakarta.persistence.*;
+import org.springframework.context.annotation.Bean;
 
 @Entity
 @Table(name = "users")  // Use "users" instead of "user"
