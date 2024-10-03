@@ -15,11 +15,13 @@ import org.springframework.web.bind.annotation.RequestParam;
 @RequestMapping("/auth")
 public class AuthController {
 
-    @Autowired
-    private UserService userService;
+
+    private final UserService userService;
 
     @Autowired
-    private User user;
+    public AuthController(UserService userService) {
+        this.userService = userService;
+    }
 
     @GetMapping("/login")
     public String showLoginPage(Model model) {

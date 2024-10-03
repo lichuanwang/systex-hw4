@@ -63,6 +63,13 @@ http://localhost:8080/
 
 === How to Play the Game
 
+==== Login Info:
+[source,bash]
+----
+username: admin
+password: adminpass
+----
+
 ==== 1. Lottery Game
 
 In the lottery game, you can generate random lottery numbers. You can specify how many groups of numbers you want to
